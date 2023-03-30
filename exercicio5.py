@@ -27,11 +27,11 @@ horario = input('Que horas são: ')
 int_horario = int(horario)
 
 
-if int_horario > 0 and int_horario < 11:
+if int_horario >= 0 and int_horario <= 11:
     print('Bom dia')
-elif int_horario > 12 and int_horario < 17:
+elif int_horario >= 12 and int_horario <= 17:
     print('Boa tarde')
-elif int_horario > 18 and int_horario < 23:
+elif int_horario >= 18 and int_horario <= 23:
     print('Boa noite')        
 
 """
